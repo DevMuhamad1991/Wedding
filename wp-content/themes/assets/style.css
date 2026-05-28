@@ -10,37 +10,18 @@
     --text-black: #000;
     --text-gray: #6e6e6e;
     --text-dark: #2c2c2c;
-    --text-light: ;
-    --danger-color: ;
-    --info-color: ;
-    --success-color: ;
-    --warning-color: ;
-    --erro-color: ;
-    --hot-color: ;
-
     /* fontsize */
     --biger-size: 44px;
-    --larger-title: ;
     --title-fs: 24px;
-    --subtitle-fs: ;
-    --menu-fs: ;
-    --body-fs: ;
-    --small-fs: ;
-
     /* font-family */
     --script-font: 'WindSong', cursive;
     --primary-font: 'Quicksand', sans-serif;
     --title-font: 'Noto Serif Display', serif;
-
     /* section margin and padding */
     --section-margin: 80px;
     --section-padding: 40px;
     --gap: 20px;
-
     /* effect */
-    --shadow-small: ;
-    --shadow-medium: ;
-    --shadow-large: ;
     --transition: .3s;
 }
 
@@ -50,12 +31,7 @@
     :root {
         /* fontsize */
         --biger-size: 56px;
-        --larger-title: ;
         --title-fs: 24px;
-        --subtitle-fs: ;
-        --menu-fs: ;
-        --body-fs: ;
-        --small-fs: ;
         /* section margin and padding */
         --section-margin: 80px;
         --section-padding: 40px;
@@ -69,12 +45,7 @@
     :root {
         /* fontsize */
         --biger-size: 58px;
-        --larger-title: ;
         --title-fs: 32px;
-        --subtitle-fs: ;
-        --menu-fs: ;
-        --body-fs: ;
-        --small-fs: ;
         /* section margin and padding */
         --section-margin: 80px;
         --section-padding: 40px;
@@ -87,12 +58,7 @@
     :root {
         /* fontsize */
         --biger-size: 64px;
-        --larger-title: ;
         --title-fs: 32px;
-        --subtitle-fs: ;
-        --menu-fs: ;
-        --body-fs: ;
-        --small-fs: ;
         /* section margin and padding */
         --section-margin: 100px;
         --section-padding: 40px;
@@ -105,12 +71,7 @@
     :root {
         /* fontsize */
         --biger-size: 68px;
-        --larger-title: ;
         --title-fs: 32px;
-        --subtitle-fs: ;
-        --menu-fs: ;
-        --body-fs: ;
-        --small-fs: ;
         /* section margin and padding */
         --section-margin: 120px;
         --section-padding: 40px;
@@ -229,10 +190,6 @@ meter {
     box-sizing: border-box;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     font-family: var(--primary-font);
 }
@@ -281,7 +238,7 @@ body {
 
 .btn-small {
     padding: 6px 12px;
-    gap: 6;
+    gap: 6px;
     border-radius: 4px;
     font-size: 12px;
 }
@@ -292,7 +249,7 @@ body {
 
 .btn-large {
     padding: 12px 24px;
-    gap: 8;
+    gap: 8px;
     border-radius: 8px;
     font-size: 16px;
 }
